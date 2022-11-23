@@ -1,6 +1,7 @@
 ---
 title: Windows 11 FAQs
 layout: post
+tags: [ MS, windows, Lorem ]
 ---
 
 ## When will Windows 11 be added?
