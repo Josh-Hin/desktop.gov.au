@@ -1,0 +1,16 @@
+{% include header.html %}
+
+<main class="main" id="content" aria-label="Content">
+    <section class="au-body">
+        <div class="container"> 
+            <form id="lunrsearch_form" onSubmit="return lunr_search(document.getElementById('lunrsearch').value);" class="au-search au-search--dark au-search--icon">               
+                <label for="lunrsearch" class="au-search__label">Search this website</label>
+                <input type="search" placeholder="Search this site" id="lunrsearch" name="q" maxlength="255" value="" class="au-text-input au-text-input--dark"/>
+                <div class="au-search__btn">
+                    <button type="submit" class="au-btn au-btn--dark"><span class="au-search__submit-btn-text">Search</span></button>
+                </div>
+            </form>           
+            {{ content }}
+        </div>
+    </section>
+</main>

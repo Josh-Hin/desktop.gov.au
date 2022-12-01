@@ -1,0 +1,16 @@
+/** Search Page - Main Search Box **/
+input[id="lunrsearch"] {
+    border: 3px solid #1a1a1a !important;
+}
+form[id="lunrsearch_form"] {
+    margin-top: 20px;
+}
+/** Search Page - Search Result **/
+#lunrsearchresults {padding-top: 0.2rem;}
+.lunrsearchresult {padding-bottom: 1rem;}
+.lunrsearchresult .title {color: #cf4520;}
+.lunrsearchresult .body {color: silver;}
+.lunrsearchresult .url {color: silver;}
+.lunrsearchresult a {display: block; color: #777;}
+.lunrsearchresult a:hover, .lunrsearchresult a:focus {text-decoration: none;}
+.lunrsearchresult a:hover .title {text-decoration: underline;}
