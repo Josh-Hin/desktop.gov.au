@@ -1,3 +1,4 @@
+// Load Global Search Box query to run Lunr Search
 $(window).on('load', getQueryVariable('q'));
 
 function getQueryVariable(variable) {
