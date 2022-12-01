@@ -1,4 +1,4 @@
-$(window).on('load', AlertMessage());
+$(window).on('load', getQueryVariable('q'));
 
 function getQueryVariable(variable) {
     var query = window.location.search.substring(1);
@@ -6,16 +6,35 @@ function getQueryVariable(variable) {
   
     for (var i = 0; i < vars.length; i++) {
       var pair = vars[i].split('=');
-  
       if (pair[0] === variable) {
-        return decodeURIComponent(pair[1].replace(/\+/g, '%20'));
+        return function() {
+            pair[1].replace(/\+/g, " ");
+            $('#lunrsearch').val(pair[1]);
+            $('#lunrsearch_btn').submit();
+        }
       }
     }
   }
 
-var searchTerm = getQueryVariable('q');
 
 
-function AlertMessage() {
-    alert(searchTerm);
-    }
+
+// var queryParser = function (a) {
+//     var i, p, b = {};
+//     if (a === "") {
+//         return {};
+//     }
+//     for (i = 0; i < a.length; i += 1) {
+//         p = a[i].split('=');
+//         if (p.length === 2) {
+//             b[p[0]] = decodeURIComponent(p[1].replace(/\+/g, " "));
+//         }
+//     }
+//     return b;
+// }
+// $.queryParams = function () {
+//     return queryParser(window.location.search.substring(1).split('&'));
+// };
+// $.hashParams = function () {
+//     return queryParser(window.location.hash.substring(1).split('&'));
+// };
