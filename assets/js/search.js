@@ -8,8 +8,8 @@ function getQueryVariable(variable) {
       var pair = vars[i].split('=');
       if (pair[0] === variable) {
         return function() {
-            pair[1].replace(/\+/g, " ");
-            $('#lunrsearch').val(pair[1]);
+            var q = pair[1].replace(/\+/g, " ");
+            $('#lunrsearch').val(q);
             $('#lunrsearch_btn').submit();
         }
       }
