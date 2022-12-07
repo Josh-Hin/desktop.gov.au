@@ -1,0 +1,98 @@
+[
+    {
+    "id": "1",
+    "url": "/",
+    "title": "Home",
+    "body": "Welcome to the website for the Digital Transformation Agency’s Protected Utility blueprint. The blueprint is a design for a secure, modern, desktop based on Microsoft 365. You can use the blueprint as a pattern for implementing a secure desktop operating system in your agency. Standardise how government agencies operate their desktops. Improve collaboration within and across agencies. Help achieve a cyber security uplift across government. Help agencies transition to cloud-based capability and adopt the blueprint. This website helps you understand what the blueprint is, why your agency should adopt the blueprint and how you can implement it."
+    },
+    {
+    "id": "2",
+    "url": "",
+    "title": "About",
+    "body": "The DTA supports the Protected Utility blueprint, a design for a secure, modern desktop based on Microsoft 365. This pattern can be used by government agencies or service providers as required for implementing an operating system which is up to date and complies with the Australian Government Information Security Manual. The blueprint helps to standardise how Government agencies operate their desktops, improve collaboration within and across agencies, and uplifts cyber security across government. The nature of work has changed. Employees expect to work securely from anywhere, on any device, and collaboratively. Organisations need to provide that empowerment, but they also need to protect sensitive information."
+    },
+    {
+    "id": "3",
+    "url": "/about/business-change-guide.html",
+    "title": "Business change guide",
+    "body": "The Protected Utility blueprint provides a secure design for government agencies to standardise the way you work as well as communicate and collaborate securely. Adopting the blueprint is as much of a business transformation as it is a security and system process. As we appreciate this is a complex process to undertake, we have created this business change guide. This guide will support you to understand how the Protected Utility blueprint can be implemented in your agency. The guide contains suggestions, tools, templates, and guidance for successfully adopting the blueprint. It is intended for agencies to adapt as required to their business needs and modernisation journey."
+    },
+    {
+    "id": "4",
+    "url": "/about/case-study.html",
+    "title": "A case study",
+    "body": "Since its inception in 2019, the DTA has supported several agencies to use the blueprint. The following case study outlines what a successful implementation of the Protected Utility blueprint looks like in an agency. We have also created a shareable PDF version."
+    },
+    {
+    "id": "5",
+    "url": "/about/operations-model.html",
+    "title": "Operations model",
+    "body": "The blueprint empowers agencies to provide their workforce with secure, flexible, and mobile solutions. This guidance pack and sustainment calculator tool outline how agencies of various size and complexity can estimate the cost of running and maintaining their Microsoft 365 environment based on the blueprint. This guide is written for technical and non-technical Australian Public Service (APS) agency senior leadership. When selecting a support model, the agency’s size, preferred support model, technical requirements, roles and capabilities, required full time equivalent and costs will need to be taken into consideration. A cost calculation tool has been developed to provide indicative operating cost guidance to agencies. The cost calculator includes factors such as; compute, storage, network, licensing costs, managed service costs and staff costs to support the blueprint."
+    },
+    {
+    "id": "6",
+    "url": "/about/personas.html",
+    "title": "User personas",
+    "body": "These personas are fictional characters which we created to represent the different user types that might use Protected Utility. We use these personas to help understand users and their needs."
+    },
+    {
+    "id": "7",
+    "url": "/about/faqs.html",
+    "title": "Frequently asked questions",
+    "body": "‘Protected Utility’ means working on documents, spreadsheets and other common desktop applications in a secure environment classified up to the Protected level. Protected Utility also means being able to work on these applications anywhere in the world using an internet connection and a device."
+    },
+    {
+    "id": "8",
+    "url": "/blueprint/index.html",
+    "title": "Blueprint",
+    "body": "The Protected Utility blueprint is a design to secure Microsoft 365 desktops, developed with Microsoft and tested with independent security assessors."
+    },
+    {
+    "id": "9",
+    "url": "/blueprint/overview.html",
+    "title": "Solution overview",
+    "body": "The Protected Utility blueprint empowers agencies to provide their workforce with secure, flexible, and mobile solutions. The blueprint is designed with a security focus. It uses native Microsoft technologies that are integrated and provide a quality end-user experience."
+    },
+    {
+    "id": "10",
+    "url": "/blueprint/essential-eight-maturity.html",
+    "title": "Essential Eight maturity",
+    "body": "The Essential Eight represents security guidance from the ACSC. It prioritises mitigation strategies to assist organisations in protecting their systems against a range of cyber threats. This section summarises the blueprint’s maturity level against the Essential Eight. It is important to note that any modifications outside of the blueprint will require a gap analysis to determine the security implications."
+    },
+    {
+    "id": "11",
+    "url": "/blueprint/platform.html",
+    "title": "Platform",
+    "body": "The blueprint includes guidance for cloud native and hybrid deployments of Microsoft 365 technologies, configured to meet PROTECTED standards. It is designed to also be used for staged deployments that leverage hybrid configurations as a transition step to cloud native transformation."
+    },
+    {
+    "id": "12",
+    "url": "/blueprint/office-365.html",
+    "title": "Office 365",
+    "body": "This document covers the following topics"
+    },
+    {
+    "id": "13",
+    "url": "/blueprint/client-devices.html",
+    "title": "Client devices",
+    "body": "This document covers the following topics."
+    },
+    {
+    "id": "14",
+    "url": "/blueprint/abac.html",
+    "title": "As Built As Configured (ABAC)",
+    "body": "For all implementation types:"
+    },
+    {
+    "id": "15",
+    "url": "/blueprint/security.html",
+    "title": "Security",
+    "body": "For cloud-native environments:"
+    },
+    {
+    "id": "16",
+    "url": "/blueprint/automation.html",
+    "title": "Automation",
+    "body": "Microsoft offers programmatic and manual methods to getting and setting configuration within Microsoft Azure and Microsoft 365. This document focuses on the programmatic configuration utilising Microsoft 365 Desired State Configuration (M365DSC). M365DSC is an open source tool hosted on GitHub and maintained by Microsoft engineers and the community. It is able to configure settings within all major Microsoft 365 workloads such as Exchange Online, Teams, Power Platforms, SharePoint and Security and Compliance. A list of configurable resources within these workloads is available on the M365DSC website. M365DSC leverages Windows PowerShell Desired State Configuration."
+    }
+]
