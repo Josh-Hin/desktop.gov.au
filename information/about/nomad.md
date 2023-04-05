@@ -1,6 +1,7 @@
 ---
 layout: persona
 title: The nomad
+menu: about
 timeline:
 - title: First day
   actions: |

@@ -1,6 +1,7 @@
 ---
 layout: persona
 title: The uniter
+menu: about
 timeline:
 - title: Identify collaboration opportunity
   actions: |

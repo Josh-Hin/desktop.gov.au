@@ -1,6 +1,7 @@
 --- 
 layout: page 
 title: Frequently asked questions
+menu: about
 ---
 
 ## What does 'Protected Utility' mean?

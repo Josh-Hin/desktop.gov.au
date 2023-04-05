@@ -17,7 +17,6 @@ toc:
     subfolderitems:
       - page: Blueprint
         url: /architecture/blueprint/index.html
-
       - page: Patterns
         url: /architecture/patterns/index.html 
 

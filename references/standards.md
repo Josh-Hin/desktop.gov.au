@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Standards
+menu: standards
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Bibendum at varius vel pharetra vel turpis nunc. Euismod in pellentesque massa placerat duis. Pharetra sit amet aliquam id. Mauris augue neque gravida in fermentum et sollicitudin ac orci. Orci sagittis eu volutpat odio facilisis mauris sit. Leo duis ut diam quam nulla porttitor massa. Et odio pellentesque diam volutpat. Netus et malesuada fames ac turpis. Est lorem ipsum dolor sit. Facilisis leo vel fringilla est ullamcorper eget nulla facilisi etiam.

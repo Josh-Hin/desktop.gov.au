@@ -1,6 +1,7 @@
 --- 
 layout: page 
 title: A case study
+menu: about
 ---
 
 Since its inception in 2019, the DTA has supported several agencies to use the blueprint. The following case study outlines what a successful implementation of the Protected Utility blueprint looks like in an agency. We have also created a [shareable PDF version](/assets/files/pdf/dta-oco-case-study.pdf).  

@@ -1,6 +1,7 @@
 ---
 layout: persona
 title: The hopper
+menu: about
 timeline:
 - title: First day
   actions: |

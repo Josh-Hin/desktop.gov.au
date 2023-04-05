@@ -2,7 +2,7 @@
 layout: page
 title: Blueprint
 menu: blueprint
-permalink: /blueprint/index.html
+# permalink: /architecture/blueprint/index.html
 ---
 
 The Protected Utility blueprint is a design to secure Microsoft 365 desktops, developed with Microsoft and tested with independent security assessors.

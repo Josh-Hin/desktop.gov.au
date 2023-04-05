@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Business change guide
+menu: about
 timeline:
 - title: 1. Connect and Align
   body: | 

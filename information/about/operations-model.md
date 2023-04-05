@@ -1,6 +1,7 @@
 --- 
 layout: page 
 title: Operations model
+menu: about
 ---
 
 The blueprint empowers agencies to provide their workforce with secure, flexible, and mobile solutions. This guidance pack and sustainment calculator tool outline how agencies of various size and complexity can estimate the cost of running and maintaining their Microsoft 365 environment based on the blueprint.

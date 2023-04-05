@@ -1,6 +1,7 @@
 ---
 layout: persona
 title: The traveller
+menu: about
 timeline:
 - title: Morning (7am - 11am)
   actions: |

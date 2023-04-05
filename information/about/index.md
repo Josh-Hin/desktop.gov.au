@@ -1,7 +1,8 @@
 ---
 layout: page
 title: About
-permalink: /about/index.html
+menu: about
+# permalink: /information/about/index.html
 ---
 
 The DTA supports the Protected Utility [blueprint](/blueprint/), a design for a secure, modern desktop based on Microsoft 365. This pattern can be used by government agencies or service providers as required for implementing an operating system which is up to date and complies with the Australian Government [Information Security Manual](https://www.cyber.gov.au/acsc/view-all-content/ism).

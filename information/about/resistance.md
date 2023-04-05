@@ -1,6 +1,7 @@
 ---
 layout: persona
 title: The resistance
+menu: about
 timeline:
 - title: New tool/system introduced
   actions: |

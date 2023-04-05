@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Strategy
+menu: strategy
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ipsum faucibus vitae aliquet nec ullamcorper sit amet risus nullam. Imperdiet sed euismod nisi porta. Ipsum a arcu cursus vitae. Cursus mattis molestie a iaculis at erat pellentesque. Nisi vitae suscipit tellus mauris a diam maecenas sed. Dis parturient montes nascetur ridiculus mus mauris vitae ultricies leo. Bibendum neque egestas congue quisque egestas diam in. Mauris augue neque gravida in fermentum. Feugiat in fermentum posuere urna nec. Eros donec ac odio tempor orci.

@@ -1,6 +1,7 @@
 ---
 layout: persona
 title: The gadgeteer
+menu: about
 timeline:
 - title: Find the right tool
   actions: |
