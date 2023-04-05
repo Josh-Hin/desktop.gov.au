@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Platform
+menu: blueprint
 ---
 
 The blueprint includes guidance for cloud native and hybrid deployments of Microsoft 365 technologies, configured to meet PROTECTED standards. It is designed to also be used for staged deployments that leverage hybrid configurations as a transition step to cloud native transformation.

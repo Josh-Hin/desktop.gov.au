@@ -1,6 +1,7 @@
 ---
 layout: page
 title: As Built As Configured (ABAC)
+menu: blueprint
 ---
 
 For all implementation types:

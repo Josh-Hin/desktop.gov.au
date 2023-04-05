@@ -1,0 +1,30 @@
+- title: Blueprint
+  url: /architecture/blueprint/index.html
+  
+  subitems:
+    - title: Solution overview
+      url: /architecture/blueprint/overview.html
+    
+    - title: Essential Eight maturity
+      url: /architecture/blueprint/essential-eight-maturity.html
+
+    - title: Platform
+      url: /architecture/blueprint/platform.html
+
+    - title: Office 365
+      url: /architecture/blueprint/office-365.html
+
+    - title: Client devices
+      url: /architecture/blueprint/client-devices.html
+
+    - title: As Built As Configured
+      url: /architecture/blueprint/abac.html
+    
+    - title: Security
+      url: /architecture/blueprint/security.html 
+
+    - title: Automation
+      url: /architecture/blueprint/automation.html 
+
+    - title: Abbreviations and Acronyms
+      url: /architecture/blueprint/abbr-acronyms.html 

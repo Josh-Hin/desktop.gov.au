@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Abbreviations and Acronyms
+menu: blueprint
 ---
 
 {:.auto}

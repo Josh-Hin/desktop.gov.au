@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Client devices
+menu: blueprint
 ---
 
 This document covers the following topics.

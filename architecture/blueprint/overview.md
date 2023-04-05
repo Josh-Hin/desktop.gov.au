@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Solution overview
+menu: blueprint
 ---
 
 This overview covers the blueprint's purpose, its components, and design considerations and decisions.

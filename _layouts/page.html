@@ -1,8 +1,13 @@
 {% assign menu = site.data.main-navigation -%}
 {% if page.menu == 'abac' %}
-{% assign menu = site.data.abac-navigation %}
+    {% assign menu = site.data.abac-navigation %}
 {% elsif page.menu == 'security' %}
-{% assign menu = site.data.security-navigation %}
+    {% assign menu = site.data.security-navigation %}
+{% elsif page.menu == 'blueprint' %}
+    {% assign menu = site.data.blueprint-navigation %}
+{% elsif page.menu == 'patterns' %}
+    {% assign menu = site.data.patterns-navigation %}
+
 {% endif -%}
 {% include header.html %}
 <main class="main" id="content" aria-label="Content">

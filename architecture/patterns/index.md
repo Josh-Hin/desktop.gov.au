@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Patterns
+menu: patterns
 ---
 
 A pattern is a set of controls that streamline the implementation of specific system(s) to complement your blueprint Microsoft 365 environment.

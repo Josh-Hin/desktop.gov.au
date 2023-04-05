@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Security
+menu: blueprint
 ---
 
 For cloud-native environments:

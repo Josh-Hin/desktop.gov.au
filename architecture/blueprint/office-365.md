@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Office 365
+menu: blueprint
 ---
 
 This document covers the following topics.

@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Bring Your Own Device (BYOD)
+menu: patterns
 excerpt: BYOD allows users to utilise their own consumer devices and access corporate data and applications securely. Polices can assist with protection of corporate data. This pattern provides guidance on how to implement various options within the blueprint but outlines some risks involved on the security posture to PROTECTED while doing this.
 ---
 

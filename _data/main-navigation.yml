@@ -2,7 +2,7 @@ toc:
   - title: Information
     subfolderitems:
       - page: About
-        url: /about/index.html
+        url: /information/about/index.html
 
   - title: References 
     subfolderitems:
@@ -16,10 +16,10 @@ toc:
   - title: Architecture
     subfolderitems:
       - page: Blueprint
-        url: /blueprint/index.html
+        url: /architecture/blueprint/index.html
 
       - page: Patterns
-        url: /patterns/index.html 
+        url: /architecture/patterns/index.html 
 
   - title: Code Repo
 

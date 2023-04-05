@@ -1,0 +1,18 @@
+- title: About
+  url: /information/about/index.html
+
+  subitems:
+    - title: Business change guide
+      url: /information/about/business-change-guide.html
+    
+    - title: Case study
+      url: /information/about/case-study.html
+
+    - title: Operations model
+      url: /information/about/operations-model.html
+
+    - title: User personas
+      url: /information/about/personas.html
+
+    - title: FAQs
+      url: /information/about/faqs.html

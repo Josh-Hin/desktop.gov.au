@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Essential Eight maturity
+menu: blueprint
 body_class: e8
 ---
 

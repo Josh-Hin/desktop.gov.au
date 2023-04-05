@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Blueprint
+menu: blueprint
 permalink: /blueprint/index.html
 ---
 
