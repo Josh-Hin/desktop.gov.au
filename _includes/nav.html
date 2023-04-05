@@ -1,5 +1,8 @@
-<ul id="nav-container" class="au-link-list">
-    <li{% if page.url == "/" %} class="active"{% endif %}><a href="/">Home</a></li>
+
+
+
+<div class="nav-container">
+    <a href="/">Home</a>
     {% for item in site.data.main-navigation.toc %}
         {%- assign css_class = "" -%}
         {%- if page.dir == "/" and item.url == page.url %}
@@ -11,18 +14,22 @@
             {% assign css_class = "right-aligned " | append: css_class %}
         {% endif -%}
     
-        <li id="tab-box-title" class="{{ css_class }}">
-            <span>{{ item.title }}</span>
-            <ul id="sub" class="au-link-list">
+        <div class="dropdown">
+            <button id="navbar-title" class="dropbtn">{{ item.title }}</button>
+            <div class="dropdown-content">
                 {% for entry in item.subfolderitems %}
-                    <li><a href="{{ entry.url }}">{{ entry.page }}</a></li>
+                    <a href="{{ entry.url }}">{{ entry.page }}</a>
                 {% endfor %}
-            </ul>
-        </li>
-    
-    
-    {% endfor %}     
-</ul>
+            </div>
+        </div>
+
+    {% endfor %} 
+</div>
+
+
+
+
+
 
 
 
