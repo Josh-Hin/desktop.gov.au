@@ -8,9 +8,9 @@
     font-size: 16px;
     color: white;
     text-align: center;
-    padding: 14px 16px;
+    // padding: 14px 16px;
+    padding: 12px;
     text-decoration: none;
-    // border: 2px solid yellow;
   }
   
   .dropdown {
@@ -18,20 +18,29 @@
     overflow: hidden;
   }
   
+  .dropdown #homebtn,
   .dropdown .dropbtn {
     font-size: 16px;  
     border: none;
     outline: none;
     color: white;
-    padding: 14px 16px;
     background-color: inherit;
     font-family: inherit;
     margin: 0;
   }
+  // .dropdown #homebtn {
+  //   padding: 14px 16px;
+  // }
+  .dropdown .dropbtn {
+    padding: 14px 16px;
+  }
+
   
+  .dropdown:hover #homebtn,
   .nav-container a:hover, .dropdown:hover .dropbtn {
     background-color: #61daff;
   }
+  .nav-container a:hover { text-decoration: none; }
   
   .dropdown-content {
     display: none;
@@ -59,3 +68,4 @@
   .dropdown:hover .dropdown-content {
     display: block;
   }
+

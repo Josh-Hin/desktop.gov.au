@@ -1,6 +1,9 @@
 <div class="nav-container">
-    <div{% if page.url == "/" %} class="active"{% endif %}>
-        <a href="/">Home</a>
+    <!-- <div{% if page.url == "/" %} class="active"{% endif %}>
+        <button id="homebtn"><a href="/">Home</a></button>
+    </div> -->
+    <div class=" dropdown">
+        <button id="homebtn"><a href="/">Home</a></button>
     </div>
     {% for item in site.data.main-navigation.toc %}
         {%- assign css_class = "" -%}
