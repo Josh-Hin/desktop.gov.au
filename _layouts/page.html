@@ -60,12 +60,14 @@
                         </aside>
                     </div>
                     <div id="content-area">
-                        <h1>{{ page.title }}</h1>
-                        <!-- Print to PDF  -->
-                            <div class="print-to-pdf">
+                        <div id="title-container">
+                            <div class="flex-item-left">
+                                <h1>{{ page.title }}</h1>
+                            </div>
+                            <div class="flex-item-right">
                                 <a href="javascript:if(window.print)window.print()">Print PDF</a>
-                            </div>   
-                        <!------------------->
+                            </div>
+                        </div>
                         <div class="metadata">
                             <ul>
                                 <li>{% include reading-time.html %}</li>

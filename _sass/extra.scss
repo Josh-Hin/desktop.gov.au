@@ -69,3 +69,14 @@
     display: block;
   }
 
+
+/* Print PDF */
+#title-container{
+  display: flex;
+}
+#title-container .flex-item-left {
+  flex: 85%;
+}
+#content-area .flex-item.right {
+  flex: 15%;
+}
