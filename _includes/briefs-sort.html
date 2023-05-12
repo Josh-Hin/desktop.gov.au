@@ -1,0 +1,36 @@
+<div class="briefs-container">
+    <div class="flex-item-left">
+        <h2 id="Briefs">Briefs</h2>
+    </div>
+    <div class="flex-item-right">
+        <button onclick="sortDesc()" id="brief-button-asc"><span class="brief-asc-icon">&#8693;</span></button>
+        <button onclick="sortAsc()" id="brief-button-desc"><span class="brief-desc-icon">&#8645;</span></button>
+    </div>
+</div>
+<div id="briefs-sortby">
+    <div id="brief-asc">
+    {% for asc in page.brief-asc  %}
+        {{ asc | markdownify }}
+    {% endfor %}
+    </div>
+    <div id="brief-desc">
+    {% for desc in page.brief-desc  %}
+        {{ desc | markdownify }}
+    {% endfor %}
+    </div>
+</div>
+<script>
+    function sortDesc() {
+        $("#brief-button-asc").hide();
+        $("#brief-asc").hide();
+        $("#brief-button-desc").show();
+        $("#brief-desc").show();
+    }
+    function sortAsc() {
+        $("#brief-button-asc").show();
+        $("#brief-asc").show();
+        $("#brief-button-desc").hide();
+        $("#brief-desc").hide();
+    }
+</script>
+

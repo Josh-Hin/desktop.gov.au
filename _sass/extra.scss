@@ -80,3 +80,19 @@
 #content-area .flex-item.right {
   flex: 15%;
 }
+
+/* Brief Sort By */
+.briefs-container { display: flex; }
+.briefs-container .flex-item-left { flex: 85%; }
+.briefs-container .flex-item-right { flex: 15%; }
+#brief-button-desc{ display: none;}
+#brief-desc { display: none;}
+#brief-button-asc, #brief-button-desc { 
+  padding: 0;
+  border: none;
+  background: none;
+}
+.brief-asc-icon, .brief-desc-icon { 
+  font-size: 2rem; 
+  opacity: .7;
+}

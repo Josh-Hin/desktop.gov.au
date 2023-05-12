@@ -77,6 +77,10 @@
                         </div>
                         {{ content }}
 
+
+                        {% include briefs-sort.html %} <!-- Sort By -->
+
+
                         {% if page.timeline %}
                         <div class="timeline mt-3">
                             {% for item in page.timeline %}
