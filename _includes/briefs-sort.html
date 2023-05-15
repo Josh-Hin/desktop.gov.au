@@ -5,7 +5,7 @@
     <div class="flex-item-right">
         <div class="briefs-dropdown">
             <button class="briefs-dropbtn">
-                <span id="brief-dropbtn-title">filter</span>
+                <span id="brief-dropbtn-title">Date</span>
                 <span class="brief-arrow-center">
                     <span class="brief-arrow-down"></span>
                 </span>
@@ -40,15 +40,18 @@
         $("#brief-name").show();
         $("#brief-category").hide();
         $("#brief-date").hide();
+        $("#brief-dropbtn-title").text("Name");
     }
     function briefCategory() {
         $("#brief-name").hide();
         $("#brief-category").show();
         $("#brief-date").hide();
+        $("#brief-dropbtn-title").text("Category");
     }
     function briefDate() {
         $("#brief-name").hide();
         $("#brief-category").hide();
         $("#brief-date").show();
+        $("#brief-dropbtn-title").text("Date");
     }
 </script> 
