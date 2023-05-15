@@ -3,34 +3,47 @@
         <h2 id="Briefs">Briefs</h2>
     </div>
     <div class="flex-item-right">
-        <button onclick="sortDesc()" id="brief-button-asc"><span class="brief-asc-icon">&#8693;</span></button>
-        <button onclick="sortAsc()" id="brief-button-desc"><span class="brief-desc-icon">&#8645;</span></button>
+        <div class="briefs-dropdown">
+            <button class="briefs-dropbtn"><span id="brief-dropbtn-title">filter</span></button>
+            <div class="briefs-dropdown-content">
+                <button onclick="briefName()" id="brief-btn-name">Name</button>
+                <button onclick="briefCategory()" id="brief-btn-category">Category</button>
+                <button onclick="briefDate()" id="brief-btn-date">Date</button>
+            </div>
+        </div>
     </div>
 </div>
 <div id="briefs-sortby">
-    <div id="brief-asc">
-    {% for asc in page.brief-asc  %}
-        {{ asc | markdownify }}
+    <div id="brief-name">
+    {% for bname in page.brief-name  %}
+        {{ bname | markdownify }}
     {% endfor %}
     </div>
-    <div id="brief-desc">
-    {% for desc in page.brief-desc  %}
-        {{ desc | markdownify }}
+    <div id="brief-category">
+    {% for bcat in page.brief-category  %}
+        {{ bcat | markdownify }}
     {% endfor %}
+    </div>
+    <div id="brief-date">
+        {% for bdate in page.brief-date  %}
+            {{ bdate | markdownify }}
+        {% endfor %}
     </div>
 </div>
 <script>
-    function sortDesc() {
-        $("#brief-button-asc").hide();
-        $("#brief-asc").hide();
-        $("#brief-button-desc").show();
-        $("#brief-desc").show();
+    function briefName() {
+        $("#brief-name").show();
+        $("#brief-category").hide();
+        $("#brief-date").hide();
     }
-    function sortAsc() {
-        $("#brief-button-asc").show();
-        $("#brief-asc").show();
-        $("#brief-button-desc").hide();
-        $("#brief-desc").hide();
+    function briefCategory() {
+        $("#brief-name").hide();
+        $("#brief-category").show();
+        $("#brief-date").hide();
     }
-</script>
-
+    function briefDate() {
+        $("#brief-name").hide();
+        $("#brief-category").hide();
+        $("#brief-date").show();
+    }
+</script> 
