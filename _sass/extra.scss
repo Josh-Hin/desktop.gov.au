@@ -82,7 +82,7 @@
 }
 
 /* Brief Sort By */
-.briefs-container { display: flex; }
+.briefs-container { display: flex; margin-top: 2.5em; }
 .briefs-container .flex-item-left { flex: 85%; }
 .briefs-container .flex-item-right { flex: 15%; }
 #brief-button-desc{ display: none;}
