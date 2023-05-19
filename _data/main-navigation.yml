@@ -20,6 +20,18 @@ toc:
       - page: Patterns
         url: /architecture/patterns/index.html 
 
+  - title: MockUp
+    subfolderitems:
+      - page: Strategy
+        url: /references/strategy.html
+      - page: Test 01
+        url: /architecture/blueprint/index.html
+        subsubfolderitems: 
+          - page: Test 02
+            url: /architecture/patterns/index.html 
+      - page: Standards
+        url: /references/standards.html  
+
   - title: Code Repo
 
 
