@@ -33,7 +33,7 @@
                                 </div> 
                             {% endfor %}
                         {% else %}
-                            <a id="sub" href="{{ entry.url }}"><span>{{ entry.page }}</span></a>
+                            <a id="sub" class="base-sub" href="{{ entry.url }}"><span>{{ entry.page }}</span></a>
                         {% endif %}
                     {% endfor %}
                    
@@ -45,6 +45,9 @@
     $(document).ready(function(){
         $(".custom-sub").hover(function(){
             $(".subsub-flex").css("display","flex");
+        });
+        $(".base-sub").hover(function(){
+            $(".subsub-flex").css("display","none");
         });
     });
 </script>
