@@ -23,21 +23,31 @@
                 {% endfor %} -->
                    
                     {% for entry in item.subfolderitems %}
-                        <a id="sub" href="{{ entry.url }}">{{ entry.page }}</a>
-                        {% for subentry in entry.subsubfolderitems %}
-                            <div class="subsub-flex"> 
-                                <div class="subsub-row">
-                                   <a id="subsub" href="{{ subentry.url }}">{{ subentry.page }}</a>
-                                </div>
-                            </div> 
-                        {% endfor %}
+                        {% if entry.page == 'Test 01' %}
+                            <a id="sub" class="custom-sub" href="{{ entry.url }}"><span>{{ entry.page }}</span></a>
+                            {% for subentry in entry.subsubfolderitems %}
+                                <div class="subsub-flex"> 
+                                    <div class="subsub-row">
+                                        <a id="subsub" href="{{ subentry.url }}"><span>{{ subentry.page }}</span></a>
+                                    </div>
+                                </div> 
+                            {% endfor %}
+                        {% else %}
+                            <a id="sub" href="{{ entry.url }}"><span>{{ entry.page }}</span></a>
+                        {% endif %}
                     {% endfor %}
                    
             </div>
         </div>
     {% endfor %} 
 </div>
-
+<script>
+    $(document).ready(function(){
+        $(".custom-sub").hover(function(){
+            $(".subsub-flex").css("display","flex");
+        });
+    });
+</script>
 
 
 
