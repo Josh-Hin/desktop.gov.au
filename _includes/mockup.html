@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Slideshow</title>
+    <style>
+        .frame {
+            display: none; 
+            position: fixed; 
+            z-index: 1; 
+            padding-top: 10px; 
+            left: 0;
+            top: 0;
+            width: 100%; 
+            height: 100%; 
+            overflow: auto; 
+            background-color: rgb(45, 44, 44,); 
+            background-color: rgba(45, 44, 44, 0.8); 
+        }
+
+        .frame-content {
+            margin: auto;
+            display: block;
+            max-width: 100%; 
+            max-height: 95%;  
+            animation-name: zoom;
+            animation-duration: 0.6s; 
+        }
+
+        @keyframes zoom {
+            from {transform:scale(0)} 
+            to {transform:scale(1)}
+        }
+
+        .exit {
+            position: fixed;
+            top: 15px;
+            right: 35px;
+            color: #eae6e6;
+            font-size: 50px;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+
+        .exit:hover,
+        .exit:focus {
+            color: #d61f1f;
+            text-decoration: none;
+            cursor: pointer;
+        }
+
+        .frameImg {
+            width: 1000px;
+            height: auto;
+        }
+
+        .frameImg:hover {
+            cursor: pointer;
+        }
+
+        .prev, .next {
+            cursor: pointer;
+            position: absolute;
+            top: 50%;
+            width: auto;
+            padding: 16px;
+            margin-top: -50px;
+            color: white;
+            font-weight: bold;
+            font-size: 30px;
+            transition: 0.6s ease;
+            user-select: none;
+        }
+
+        .next {
+            right: 0;
+        }
+
+        .prev:hover, .next:hover {
+            background-color: rgba(0, 0, 0, 0.8);
+        }
+
+        .counter {
+            position: absolute;
+            bottom: 1%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: white;
+            font-size: 20px;
+            z-index: 2;
+}
+    </style>
+</head>
+<body>
+
+    <center>
+        <img class="frameImg" src="../assets/images/mockup/devsecops-1.png" alt="image name">
+    </center>
+
+    <center style="display: none;">
+        <img class="frameImg" src="../assets/images/mockup/devsecops-2.png" alt="image name">
+    </center>
+    
+    <center style="display: none;">
+        <img class="frameImg" src="../assets/images/mockup/devsecops-3.png" alt="image name">
+    </center>
+    
+    <div id="myframe" class="frame">
+        <span class="exit">&times;</span>
+        <img class="frame-content" id="mainimg"> 
+        <span class="prev" onclick="plusSlides(-1)">&#10094;</span>
+        <span class="next" onclick="plusSlides(1)">&#10095;</span>
+        <div class="counter">
+            <span id="currentSlide"></span> / <span id="totalSlides"></span>
+        </div>
+    </div>
+
+    
+
+    <script>
+var frame = document.getElementById("myframe");
+var frameImg = document.getElementById("mainimg");
+var imgs = document.getElementsByClassName("frameImg");
+var shut = document.getElementsByClassName("exit")[0];
+var slideIndex = 0;
+var currentSlide = document.getElementById("currentSlide");
+var totalSlides = document.getElementById("totalSlides");
+
+function updateCounter() {
+    currentSlide.innerHTML = slideIndex + 1;
+    totalSlides.innerHTML = imgs.length;
+}
+
+imgs[0].onclick = function() {
+    frame.style.display = "block";
+    frameImg.src = this.src;
+    slideIndex = 0;
+    showSlides(slideIndex);
+    updateCounter();
+}
+
+shut.onclick = function() { 
+    frame.style.display = "none";
+}
+
+function plusSlides(n) {
+    showSlides(slideIndex += n);
+    updateCounter();
+}
+
+function showSlides(n) {
+    var slides = document.getElementsByClassName("frameImg");
+    if (n >= slides.length) {
+        slideIndex = 0;
+    }
+    if (n < 0) {
+        slideIndex = slides.length - 1;
+    }
+    frameImg.src = slides[slideIndex].src;
+    updateCounter();
+}
+    </script>
+</body>
+</html>

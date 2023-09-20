@@ -81,6 +81,11 @@
                         {% include briefs-sort.html %} <!-- Sort By -->
 
 
+                        {% if page.title == "Mockup" %}
+                            {% include mockup.html %}<!-- image funciton -->>
+                        {% endif %}
+
+
                         {% if page.timeline %}
                         <div class="timeline mt-3">
                             {% for item in page.timeline %}
